@@ -3,7 +3,7 @@
 # Same directory hack
 import sys
 sys.path.append('.')
-
+sys.path.append('..')
 import stackexchange, thread
 so = stackexchange.Site(stackexchange.StackOverflow)
 so.be_inclusive()
